@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a70720a-8258-4977-8f2d-9af35262311e" name="Changes" comment="" />
+    <list default="true" id="5a70720a-8258-4977-8f2d-9af35262311e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Illumination models/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Illumination models/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/MyPhong.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/MyPhong.shader" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,6 +71,8 @@
       <workItem from="1681375433234" duration="1731000" />
       <workItem from="1681400221480" duration="810000" />
       <workItem from="1681403211044" duration="211000" />
+      <workItem from="1681405520206" duration="1382000" />
+      <workItem from="1681407235723" duration="677000" />
     </task>
     <servers />
   </component>
