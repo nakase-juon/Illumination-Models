@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a70720a-8258-4977-8f2d-9af35262311e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Shaders/MyToon.shader" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Illumination models/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Illumination models/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Flat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Flat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Phong.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Phong.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Comparison.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Comparison.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/BumpedEnv.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/BumpedEnv.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/MyFlat.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/MyFlat.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/MyFlat2.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/MyFlat2.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/MyToon.shader.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/MyPhong.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/MyPhong.shader" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -11,9 +19,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Shaders/MyGouraud2.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file:///Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/CGIncludes/UnityCG.cginc" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/MyFlat.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2021.3.22f1/Unity.app/Contents/CGIncludes/AutoLight.cginc" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/MyGouraud.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/MyPhong.shader" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -72,7 +80,8 @@
       <workItem from="1681400221480" duration="810000" />
       <workItem from="1681403211044" duration="211000" />
       <workItem from="1681405520206" duration="1382000" />
-      <workItem from="1681407235723" duration="677000" />
+      <workItem from="1681407235723" duration="2944000" />
+      <workItem from="1681650232803" duration="24742000" />
     </task>
     <servers />
   </component>
@@ -82,6 +91,17 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
