@@ -65,7 +65,6 @@ Shader "Custom/MyFlat"
                 float3 N = normalize(i.normal);
                 //光源方向のベクトルを正規化
                 float3 L = normalize(_WorldSpaceLightPos0.xyz);
-                float3 V = normalize(i.viewDir);
 
                 //diffuse = N・L
                 //面の法線と光源ベクトルの内積(cosθ)を求め、-1-0の値はいらないので0-1の値で返す

@@ -60,7 +60,7 @@ Shader "Custom/MyBlinn-Phong"
 				
 				// Diffuse(HalfLambert)
 				float NdotL = max(dot(N, L), 0.0);
-				float4 diffuse = (NdotL * 0.5 + 0.5) * _LightColor0;
+				float4 diffuse = pow(NdotL * 0.5 + 0.5, 2) * _LightColor0;
 
 				// Speculer
 				float NdotH = dot(N, H);

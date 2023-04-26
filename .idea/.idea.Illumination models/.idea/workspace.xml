@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a70720a-8258-4977-8f2d-9af35262311e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Shaders/MyToon.shader" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Illumination models/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Illumination models/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Blinn-Phong.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Blinn-Phong.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/Flat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Flat.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/Phong.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Phong.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Toon.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Toon.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/lambert2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/lambert2.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Comparison.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Comparison.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/New Scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/New Scene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Blinn-Phong.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Blinn-Phong.shader" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/BumpedEnv.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/BumpedEnv.shader" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/MyFlat.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/MyFlat.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/MyFlat2.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/MyFlat2.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/MyToon.shader.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Shaders/MyPhong.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/MyPhong.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/MyToon.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/MyToon.shader" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +85,11 @@
       <workItem from="1681403211044" duration="211000" />
       <workItem from="1681405520206" duration="1382000" />
       <workItem from="1681407235723" duration="2944000" />
-      <workItem from="1681650232803" duration="24742000" />
+      <workItem from="1681650232803" duration="26618000" />
+      <workItem from="1682031913702" duration="3717000" />
+      <workItem from="1682354093137" duration="516000" />
+      <workItem from="1682435650886" duration="1893000" />
+      <workItem from="1682520217853" duration="268000" />
     </task>
     <servers />
   </component>

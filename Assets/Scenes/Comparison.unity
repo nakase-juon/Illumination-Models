@@ -147,7 +147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 59882900}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -246,13 +246,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 502177428}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -372,7 +372,6 @@ GameObject:
   - component: {fileID: 722858190}
   - component: {fileID: 722858189}
   - component: {fileID: 722858188}
-  - component: {fileID: 722858191}
   m_Layer: 0
   m_Name: Zombunny Phong
   m_TagString: Untagged
@@ -445,18 +444,6 @@ Transform:
   m_Father: {fileID: 59882901}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &722858191
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 722858187}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fa7f24c274b9405c94ba03b879b77ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -533,8 +520,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0.9914449, z: -0.13052616, w: 0}
-  m_LocalPosition: {x: -2, y: 2, z: 4}
+  m_LocalRotation: {x: -0.0030467177, y: 0.98200554, z: -0.18815625, w: -0.015909512}
+  m_LocalPosition: {x: 0.16564155, y: 5.5695367, z: 8.57304}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -552,7 +539,6 @@ GameObject:
   - component: {fileID: 1014321213}
   - component: {fileID: 1014321216}
   - component: {fileID: 1014321215}
-  - component: {fileID: 1014321214}
   m_Layer: 0
   m_Name: Zombunny Toon
   m_TagString: Untagged
@@ -575,18 +561,6 @@ Transform:
   m_Father: {fileID: 2061490150}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1014321214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1014321212}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fa7f24c274b9405c94ba03b879b77ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1014321215
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -727,12 +701,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016264156}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.25, y: 1.075, z: 1.59}
+  m_LocalPosition: {x: 0.19, y: 2.513, z: 1.887}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1077539510
 GameObject:
@@ -848,7 +822,7 @@ Transform:
   - {fileID: 5847732556639183657}
   - {fileID: 1697988556}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1232058651
 GameObject:
@@ -862,7 +836,6 @@ GameObject:
   - component: {fileID: 1232058654}
   - component: {fileID: 1232058653}
   - component: {fileID: 1232058652}
-  - component: {fileID: 1232058656}
   m_Layer: 0
   m_Name: Sphere Phong
   m_TagString: Untagged
@@ -948,18 +921,6 @@ Transform:
   m_Father: {fileID: 59882901}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1232058656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1232058651}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fa7f24c274b9405c94ba03b879b77ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1239317322
 GameObject:
   m_ObjectHideFlags: 0
@@ -1081,14 +1042,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1295707639}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1077539511}
   - {fileID: 1239317323}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1697988552
 GameObject:
@@ -1102,7 +1063,6 @@ GameObject:
   - component: {fileID: 1697988555}
   - component: {fileID: 1697988554}
   - component: {fileID: 1697988553}
-  - component: {fileID: 1697988557}
   m_Layer: 0
   m_Name: Sphere Flat
   m_TagString: Untagged
@@ -1188,18 +1148,6 @@ Transform:
   m_Father: {fileID: 1208800821}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1697988557
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1697988552}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fa7f24c274b9405c94ba03b879b77ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1893676601
 GameObject:
   m_ObjectHideFlags: 0
@@ -1212,7 +1160,6 @@ GameObject:
   - component: {fileID: 1893676606}
   - component: {fileID: 1893676605}
   - component: {fileID: 1893676604}
-  - component: {fileID: 1893676603}
   m_Layer: 0
   m_Name: Sphere Toon
   m_TagString: Untagged
@@ -1235,18 +1182,6 @@ Transform:
   m_Father: {fileID: 2061490150}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1893676603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1893676601}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fa7f24c274b9405c94ba03b879b77ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!135 &1893676604
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1435,7 +1370,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2051894807
 Transform:
   m_ObjectHideFlags: 0
@@ -1443,7 +1378,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051894806}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1451,7 +1386,7 @@ Transform:
   - {fileID: 5869725932689801163}
   - {fileID: 1993829104}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2061490149
 GameObject:
@@ -1477,14 +1412,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2061490149}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8, y: 0, z: 0}
+  m_LocalPosition: {x: 6, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1014321213}
   - {fileID: 1893676602}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5841484302897602673
 MeshFilter:
@@ -1562,7 +1497,6 @@ GameObject:
   - component: {fileID: 5847732556639183657}
   - component: {fileID: 5855588140778257555}
   - component: {fileID: 5864760083455350923}
-  - component: {fileID: 5864760083455350924}
   m_Layer: 0
   m_Name: Zombunny Flat
   m_TagString: Untagged
@@ -1639,18 +1573,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &5864760083455350924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5850818863622663415}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fa7f24c274b9405c94ba03b879b77ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &5869725932689801163
 Transform:
   m_ObjectHideFlags: 0

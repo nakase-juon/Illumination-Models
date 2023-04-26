@@ -75,6 +75,7 @@ Shader "Custom/Toon"
 
                 fixed shadow = SHADOW_ATTENUATION(i);
 
+                // float lightIntensity = NdotL > 0 ? 1 : 0;
                 float lightIntensity = smoothstep(0, 0.01, NdotL * shadow);	
                 float4 light = lightIntensity * _LightColor0;
 
