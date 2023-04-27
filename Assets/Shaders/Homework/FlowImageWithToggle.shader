@@ -1,8 +1,9 @@
-Shader "Custom/FlowImage"
+Shader "Custom/FlowImageOld"
 {
     Properties
     {
         _MainTex ("Main Texture", 2D) = "white" {}
+        _TexPower ("Texture Color Strength", Range(0.1, 1.0)) = 0.1
         _Speed("Speed",Range(0,100)) = 10
     }
     SubShader
@@ -33,6 +34,7 @@ Shader "Custom/FlowImage"
             };
             
             sampler2D _MainTex;
+            float _TexPower;
             float _Speed;
 
             v2f vert (appdata v)
@@ -40,7 +42,7 @@ Shader "Custom/FlowImage"
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 float t = _Time * _Speed;
-                // o.uv.x = sin(t + v.uv.x);
+                o.uv.x = v.uv.x;
                 o.uv.y = sin(t + v.uv.y);
                 return o;
             }
@@ -48,11 +50,15 @@ Shader "Custom/FlowImage"
             fixed4 frag (v2f i) : SV_Target
             {
                 fixed4 color = tex2D(_MainTex, i.uv);
+                color.rgb *= _TexPower;
                 color.a = 0.5;
                 return color;
             }
 
             ENDCG
-            }
+        }
+        
+            
+        
     }
 }
