@@ -38,7 +38,7 @@ Shader "Custom/FlowImage"
         {
             half4 color = tex2D(_MainTex, IN.uv_MainTex);
             o.Albedo = color.rgb;
-            half rim = 1.0 - saturate(dot(normalize(IN.viewDir), o.Normal));
+            half rim = 1.0 - abs(dot(normalize(IN.viewDir), o.Normal));
             o.Emission = color.rgb * pow(rim, _RimPower);
             o.Alpha = 0.5;
         }
@@ -74,6 +74,7 @@ Shader "Custom/FlowImage"
             {
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
+                // 時間経過でテクスチャが下にスクロールする
                 float t = _Time * _Speed;
                 o.uv.x = v.uv.x;
                 o.uv.y = sin(t + v.uv.y);
